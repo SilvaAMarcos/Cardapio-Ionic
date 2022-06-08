@@ -1,0 +1,60 @@
+.img {
+    border-radius: 40px;
+    height: 351px;
+    width: 555px;
+    margin-left: 15px;
+    margin-top: 5px;
+    box-shadow: 2px 2px 7px;
+    --display: flex;
+    --justify-content: center;
+}
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 15px;
+    height: 20px;
+    text-align: center;
+}
+.prec {
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+    color: rgb(10, 10, 5);
+    font-weight: bold;
+    background-color: rgb(42, 126, 196);;
+    width: 230px;
+    border: 2px double rgb(12, 34, 51);
+    border-radius: 15px;
+
+}
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    text-align: center;
+    width: 500px;
+    height: 150px;
+    color: rgb(7, 35, 87);
+    margin: auto;
+    font-weight: bold;
+    border: 2px double rgb(86, 155, 7);
+    border-radius: 50px;
+    background-color: rgba(243, 241, 239, 0.795);
+    
+    
+
+}
+.botao{
+    margin-top: 5px;
+  --background: #3119bb;
+  color: rgb(255, 255, 255);
+  --border-radius: 25px
+}
+
+.cont{
+    --background:#888585;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar class="content">
+    <ion-title>
+      <p class="topo">
+      Restaurante Bóia Boa </p>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="content" [fullscreen]="true">
+  <ion-list>
+    <ion-item  class="list" *ngFor="let categorias of listacategorias" [routerLink]="categorias.pagina">
+      <ion-thumbnail slot="start">
+        <img id="teste" [src]="categorias.foto">
+      </ion-thumbnail>
+   <ion-label id="produtos" position="undefined">
+     <h2>{{categorias.nome}}</h2>
+   </ion-label>
+    </ion-item>
+  </ion-list>
+ <!-- <div id="container">
+    <strong>Ready to create an app?</strong>
+    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  </div> -->
+</ion-content>
+
